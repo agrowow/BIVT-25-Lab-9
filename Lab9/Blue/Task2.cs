@@ -19,6 +19,8 @@ namespace Lab9.Blue
             }
         }
 
+        public string Sequence => _sequence;
+
         public Task2(string text, string sequence) : base(text)
         {
             _sequence = sequence;
